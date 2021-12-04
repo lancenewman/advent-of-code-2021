@@ -1,9 +1,9 @@
 from typing import List
-from typing import Dict
 
 
 class Submarine:
     """We all live in a yellow submarine"""
+
     def __init__(self, course: List[str]):
         self.horizontal = 0
         self.depth = 0
