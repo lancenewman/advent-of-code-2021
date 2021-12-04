@@ -2,8 +2,9 @@ import sys
 
 from Fathometer import Fathometer
 
-if not sys.argv[1]:
+if len(sys.argv) < 2:
     print('Usage: python3 day1.py input-file')
+    exit()
 
 with open(sys.argv[1], 'r') as f:
     input = [int(line.rstrip()) for line in f]
