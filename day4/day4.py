@@ -16,7 +16,7 @@ def main() -> None:
         boards = list()
         currentBoard = list()
         currentRow = list()
-        for i, line in enumerate(lines):
+        for line in lines:
             if line:
                 currentRow = [int(num) for num in line.split()]
                 currentBoard.append(currentRow)
